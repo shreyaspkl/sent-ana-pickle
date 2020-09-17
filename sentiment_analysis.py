@@ -9,7 +9,7 @@ def u_in():
   a.append(text)
   return  a 
 
-st.title("ML Project")
+st.title("ML Project") 
 st.subheader("This is sentiment analysis model made by Shreyas Mandaokar")
 df = u_in()
 pred = mp.predict(df) 
