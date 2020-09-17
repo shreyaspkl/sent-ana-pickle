@@ -7,7 +7,7 @@ def u_in():
   text = st.text_input("Enter your review: ")
   a = []
   a.append(text)
-  return a
+  return  a 
 
 st.title("ML Project")
 st.subheader("This is sentiment analysis model made by Shreyas Mandaokar")
