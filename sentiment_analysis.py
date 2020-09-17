@@ -1,4 +1,6 @@
 import pickle
+import streamlit as st
+
 with open("model_pickle2","rb") as f:
     mp=pickle.load(f)
 def u_in():
